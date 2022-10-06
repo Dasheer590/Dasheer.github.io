@@ -195,7 +195,7 @@ header {
 /*=====MEDIA QUERIES(PHONES)=====*/
 @media screen and (max-width:800px){
   header{
-    height: 60vh;
+    height: 55vh;
   }
   
   .scroll__down{
@@ -318,7 +318,7 @@ nav a.active{
       margin: 0 auto 3rem;
   }
   .about__me-image{
-      height: 25rem;
+      height: 5rem;
   }
   .about__cards {
       grid-template-columns: 1fr 1fr;
