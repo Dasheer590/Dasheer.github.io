@@ -318,7 +318,7 @@ nav a.active{
       margin: 0 auto 3rem;
   }
   .about__me-image{
-      height: 10rem;
+      height: 20%;
   }
   .about__cards {
       grid-template-columns: 1fr 1fr;
