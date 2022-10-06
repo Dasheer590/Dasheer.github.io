@@ -254,7 +254,6 @@ nav a.active{
 }
 .about__me-image{
   border-radius: 2rem;
-  height 3rem
   overflow: hidden;
   transform: rotate(10deg);
   transition: var(--transition) ;
@@ -317,6 +316,9 @@ nav a.active{
   .about__me {
       width: 65%;
       margin: 0 auto 3rem;
+  }
+    .about__me-image{
+      height: 5px;
   }
   .about__cards {
       grid-template-columns: 1fr 1fr;
