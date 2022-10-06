@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title> My personal portfolio website</title>
+          <!--FONTAWESOME.CDN-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        />
+        
+        <!-- SwiperJS -->
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+  <!----------- HEADER------------>
+
+      <header>
+        <div class="container header__container">
+          <h5>Hello I am</h5>
+          <h1>Daniel Baraka</h1>
+          <h5 class='text-light'>A Fullstack Developer</h5>
+           <!----------- CTA------------>
+          <div class='cta'>
+            <a href="./assets/img/cv.pdf" download class='btn'>Download CV</a>
+            <a href="#contact" class='btn btn-primary'>Let's Talk</a>
+          </div>
+           <!----------- Header socials------------>
+          <div class= 'header__socials'>
+            <a href="https://linkedin.com/in/breezydan-baraka-aa0721228" target="_blank"><i class="fa-brands fa-linkedin"></i> </a>
+            <a href="https://github.com/Dasheer590" target="_blank"><i class="fa-brands fa-github-alt"></i></a>
+            <a href="https://dribble.com" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+          </div>
+
+          <a href="#contact" class='scroll__down'>Scroll Down</a>
+        </div>
+      </header>
+
+  <!----------- NAVBAR------------>
+
+      <nav>
+        <a href="#"  ><i class="fa-solid fa-house"></i></a>
+        <a href="#about" id="demo" onclick="myFunction()"><i class="fa-solid fa-user"></i></a>
+        <a href="#experience" ><i class="fa-solid fa-book"></i></a>
+        <a href="#services" ><i class="fa-solid fa-handshake"></i></a>
+        <a href="#contact"  id="demo4"  onclick="myFunctionD()"><i class="fa-solid fa-comment-dots"></i></a>
+      </nav>
+
+ <!----------- ABOUT ME------------>
+
+      <section id='about'>
+        <h5>Get To Know</h5>
+        <h2>About Me</h2>
+  
+        <div class="container about__container">
+          <div class="about__me">
+            <div class="about__me-image">
+              <img src="./assets/img/me-about.jpeg" alt="About Image" />
+            </div>
+          </div>
+  
+          <div class="about__content">
+            <div class="about__cards">
+              <article class="about__card">
+                <i class="fa-solid fa-award about__icon"></i>
+                <h5>Experience</h5>
+                <small>3+ Years Working</small>
+              </article>
+  
+              <article class="about__card">
+                <i class="fa-solid fa-users about__icon"></i>
+                <h5>Clients</h5>
+                <small>200+ Worldwide</small>
+              </article>
+  
+              <article class="about__card">
+                <i class="fa-solid fa-folder-open about__icon"></i>
+                <h5>Projects</h5>
+                <small>80+ Completed</small>
+              </article>
+            </div>
+  
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel omnis porro laboriosam, nulla enim ducimus repellendus error ut tenetur, earum dolorem temporibus. Magnam id placeat voluptates doloremque corrupti, reiciendis optio?</p>
+  
+            <a href="#contact" class='btn btn-primary'>Let's Talk</a>
+          </div>
+        </div>
+      </section>
+
+    <!----------- EXPERIENCE------------>
+
+      <section id='experience'>
+        <h5>The Dexterity I've got</h5>
+        <h2>My Experience</h2>
+  
+        <div class="container experience__container">
+  
+          <div class="experience__frontend">
+            <h3>Frontend Development</h3>
+            <div class="experience__content">
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>HTML</h4>
+                <small class='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>CSS</h4>
+                <small class='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>Tailwind</h4>
+                <small class='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>Javascript</h4>
+                <small class='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>Bootstrap</h4>
+                <small class='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>React</h4>
+                <small class='text-light'>Experienced</small>
+                </div>
+              </article>
+            </div>
+          </div>
+  
+  
+          <div class="experience__backend">
+          <h3>Backend Development</h3>
+            <div class="experience__content">
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>Python</h4>
+                <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>MySQL</h4>
+                <small className='text-light'>Experienced</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>Node JS</h4>
+                <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>PHP</h4>
+                <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+              <article>
+                <i class="fa-solid fa-palette experience__details-icon"></i>
+                <div>
+                <h4>MongoDB</h4>
+                <small className='text-light'>Intermediate</small>
+                </div>
+              </article>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+    <!----------- SERVICES------------>
+      <section id='services'>
+        <h5>What I offer</h5>
+        <h2>Services</h2>
+  
+        <div class="container services__container">
+          <article class='service'>
+            <div class="service__head">
+              <h3>UI/UX Design</h3>
+            </div>
+  
+            <ul class='service__list'>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+             
+              
+            </ul>
+          </article>
+  
+      
+  
+          <article class='service'>
+            <div class="service__head">
+              <h3>Web Development</h3>
+            </div>
+  
+            <ul class='service__list'>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              
+            </ul>
+          </article>
+  
+          
+  
+          <article class='service'>
+            <div class="service__head">
+              <h3>Content Creation</h3>
+            </div>
+  
+            <ul class='service__list'>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              <li>
+                <i class="fa-solid fa-check service__list-icon"></i>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+              </li>
+              
+              
+            </ul>
+          </article>
+          
+  
+  
+        </div>
+      </section>
+
+ <!----------- PORTFOLIO------------>
+
+    <section id='portfolio'>
+        <h5>My Recent Work</h5>
+        <h2>Portfolio</h2>
+      
+        <div class="container portfolio__container">
+
+              <article class='portfolio__item'>
+                <div class="portfolio__item-image">
+                  <img src="./assets/img/portfolio1.jpg" alt='' />
+                </div>
+                <h3>Crypto Currency Dashboard & Financial Visualization</h3>
+                <div class="portfolio__item-cta">
+                  <a href=  "https://github.com/Dasheer590/boutique" class='btn' target='blank'> Github </a>
+                  <a href="https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization" class='btn btn-primary' target='blank'> Live Demo </a>
+                </div>
+              </article>
+
+              <article class='portfolio__item'>
+                <div class="portfolio__item-image">
+                  <img src="./assets/img/portfolio2.jpg" alt='' />
+                </div>
+                <h3>Charts templates & Infographics in Figma</h3>
+                <div class="portfolio__item-cta">
+                  <a href=  "https://github.com/Dasheer590/dasheer590.github.io" class='btn' target='blank'> Github </a>
+                  <a href="https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization" class='btn btn-primary' target='blank'> Live Demo </a>
+                </div>
+              </article>
+
+              <article class='portfolio__item'>
+                <div class="portfolio__item-image">
+                  <img src="./assets/img/portfolio3.jpg" alt='' />
+                </div>
+                <h3>Figma Dashboard UI kit for data design and web apps</h3>
+                <div class="portfolio__item-cta">
+                  <a href=  "https://github.com/Dasheer590/cafe" class='btn' target='blank'> Github </a>
+                  <a href="https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization" class='btn btn-primary' target='blank'> Live Demo </a>
+                </div>
+              </article>
+
+              <article class='portfolio__item'>
+                <div class="portfolio__item-image">
+                  <img src="./assets/img/portfolio4.jpg" alt='' />
+                </div>
+                <h3>Maintaining and tracking progress</h3>
+                <div class="portfolio__item-cta">
+                  <a href=  "https://github.com/Dasheer590/victory" class='btn' target='blank'> Github </a>
+                  <a href="https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization" class='btn btn-primary' target='blank'> Live Demo </a>
+                </div>
+              </article>
+
+              <article class='portfolio__item'>
+                <div class="portfolio__item-image">
+                  <img src="./assets/img/portfolio5.png" alt='' />
+                </div>
+                <h3>Charts templates & Infographics in Figma</h3>
+                <div class="portfolio__item-cta">
+                  <a href=  "https://github.com/Dasheer590/interiordesign" class='btn' target='blank'> Github </a>
+                  <a href="https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization" class='btn btn-primary' target='blank'> Live Demo </a>
+                </div>
+              </article>
+
+              <article class='portfolio__item'>
+                <div class="portfolio__item-image">
+                  <img src="./assets/img/portfolio6.jpg" alt='' />
+                </div>
+                <h3>Charts templates & Infographics in Figma</h3>
+                <div class="portfolio__item-cta">
+                  <a href=  "https://github.com/Dasheer590/interiordesign" class='btn' target='blank'> Github </a>
+                  <a href="https://dribbble.com/shots/16673715-Crypto-currency-dashboards-and-financial-data-visualization" class='btn btn-primary' target='blank'> Live Demo </a>
+                </div>
+              </article>
+          
+        </div>
+      </section>
+
+      <!----------- TESTIMONIALS------------>
+      <section class="container testimonials__container swiper mySwiper" id='testimonials'>
+        <h5>Reviews from clients</h5>
+        <h2 style="margin-top: 0.5px;margin-bottom: 1rem;">Testimonials</h2>
+        <div class="swiper-wrapper">
+          <article class="testimonial swiper-slide">
+            <div class="avatar">
+              <img src="./assets/img/avatar1.jpg" alt=""></div>
+              <div class="testimonial__info">
+                <h5>Jane Doe</h5>
+              </div>
+              <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptates debitis vitae magnam non fuga, amet saepe voluptatibus asperiores, dolore deserunt labore nulla ex eius, sed ut et esse? Quam!
+                </p>
+              </div>
+          </article>
+    
+          <article class="testimonial swiper-slide">
+            <div class="avatar">
+              <img src="./assets/img/avatar2.jpg" alt=""></div>
+              <div class="testimonial__info">
+                <h5>Johnny Sinns</h5>
+              </div>
+              <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptates debitis vitae magnam non fuga, amet saepe voluptatibus asperiores, dolore deserunt labore nulla ex eius, sed ut et esse? Quam!
+                </p>
+              </div>
+          </article>
+    
+          <article class="testimonial  swiper-slide">
+            <div class="avatar">
+              <img src="./assets/img/avatar3.jpg" alt=""></div>
+              <div class="testimonial__info">
+                <h5>Pop Smoke</h5>
+              </div>
+              <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptates debitis vitae magnam non fuga, amet saepe voluptatibus asperiores, dolore deserunt labore nulla ex eius, sed ut et esse? Quam!
+                </p>
+              </div>
+          </article>
+    
+          <article class="testimonial swiper-slide">
+            <div class="avatar">
+              <img src="./assets/img/avatar4.jpg" alt=""></div>
+              <div class="testimonial__info">
+                <h5>Lorem Ipsum</h5>
+              </div>
+              <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptates debitis vitae magnam non fuga, amet saepe voluptatibus asperiores, dolore deserunt labore nulla ex eius, sed ut et esse? Quam!
+                </p>
+              </div>
+          </article>
+    
+          <article class="testimonial swiper-slide">
+            <div class="avatar">
+              <img src="./assets/img/avatar5.jpg" alt=""></div>
+              <div class="testimonial__info">
+                <h5>Lorem Ipsum</h5>
+              </div>
+              <div class="testimonial__body">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptates debitis vitae magnam non fuga, amet saepe voluptatibus asperiores, dolore deserunt labore nulla ex eius, sed ut et esse? Quam!
+                </p>
+              </div>
+          </article>
+    
+        </div>
+        <div class="swiper-pagination"></div>
+      </section>
+      <!-----END OF TESTIMONIALS----->
+    
+        <!----------- CONTACT------------>
+        <section id='contact'>
+            <h5>Get In Touch</h5>
+            <h2>Contact Me</h2>
+      
+            <div class="container contact__container">
+              <div class="contact__options">
+                <article class='contact__option'>
+                  <i class="fa-regular fa-envelope"></i>
+                  <h4>Email</h4>
+                  <h5>breezydanbaraka@gmail.com</h5>
+                  <a href="mailto:breezydanbaraka@gmail.com" target="_blank">Send a message</a>
+                </article>
+      
+                <article class='contact__option'>
+                  <i class="fa-brands fa-facebook-messenger"></i>
+                  <h4>Messenger</h4>
+                  <h5>Dasheer dash</h5>
+                  <a href="https://m.me/dasheer dash" target="_blank">Send a message</a>
+                </article>
+      
+                <article class='contact__option'>
+                  <i class="fa-brands fa-whatsapp"></i>
+                  <h4>WhatsApp</h4>
+                  <h5>+254 759 812 104</h5>
+                  <a href="https://api.whatsapp.com/send?phone+254759812104" target="_blank">Send a message</a>
+                </article>
+              </div>
+              
+              <form action="https://formspree.io/f/mpznwvdz" method="POST" class="contact__form" type="reset">
+                <input type="text" name= "name" placeholder='Your Full Name' required />
+                <input type="email" name= 'email' placeholder='Your Email' required/>
+                <textarea name="message" placeholder='Your Message' rows="7" required></textarea>
+                <button type='submit' class='btn btn-primary'>Send Message</button>
+              </form>
+            </div>
+          </section>
+        <!-- Footer-->
+        <footer>
+            <a href="#" class='footer__logo'>DASHEER</a>
+      
+            <ul class='permalinks'>
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+      
+            <div class="footer__socials">
+              <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+              <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+      
+            <div class="footer__copyright">
+              <small>&copy; DASHEER .All rights reserved.</small>
+            </div>
+      
+          </footer>
+        
+        <!-- Core theme JS-->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>  
+  <script src="./main.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        //When window width>=600px
+        breakpoints:{
+          600:{
+            slidesPerView: 3,
+          }
+        }
+
+      });
+  </script>
+
+  <script>
+    function myFunction() {
+      document.getElementById("demo").style="color:#4db5ff ; " ;
+    }
+  </script>
+  <script>
+    function myFunctionD() {
+      document.getElementById("demo4").style="color:#4db5ff ; " ;
+    }
+  </script>
+
+    </body>
+</html>
