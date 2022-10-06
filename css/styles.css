@@ -318,8 +318,8 @@ nav a.active{
       margin: 0 auto 3rem;
   }
     .about__me-image{
-      height: 5px;
-      border-radius: 2px;
+      height: 5rem;
+      border-radius: 1rem;
   }
   .about__cards {
       grid-template-columns: 1fr 1fr;
